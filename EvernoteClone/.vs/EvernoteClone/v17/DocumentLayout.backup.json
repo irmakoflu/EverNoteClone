@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\view\\usercontrol\\displaynote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\usercontrol\\displaynote.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\view\\noteswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\noteswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\view\\noteswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\noteswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\model\\notebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\model\\notebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\model\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\model\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\view\\usercontrol\\displaynotebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\usercontrol\\displaynotebook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\helpers\\notesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\helpers\\notesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\helpers\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\helpers\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\commands\\newnotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\newnotecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\commands\\newnotebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\newnotebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\commands\\endeditingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\endeditingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\viewmodel\\commands\\editcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\viewmodel\\commands\\editcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\view\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\notes\\evernoteclone\\evernoteclone\\view\\usercontrol\\displaynotebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1191B1A-4A72-4827-A523-985F043DFE74}|EvernoteClone\\EvernoteClone.csproj|solutionrelative:evernoteclone\\view\\usercontrol\\displaynotebook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\NotesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml.cs*",
+              "RelativeToolTip": "EvernoteClone\\View\\NotesWindow.xaml.cs*",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAawEkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:19:57.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\Model\\Note.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\Model\\Note.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\Model\\Note.cs",
+              "RelativeToolTip": "EvernoteClone\\Model\\Note.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:14:34.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\NotesWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\NotesWindow.xaml*",
+              "RelativeToolTip": "EvernoteClone\\View\\NotesWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-26T16:19:18.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DisplayNote.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\UserControl\\DisplayNote.xaml.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\UserControl\\DisplayNote.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\UserControl\\DisplayNote.xaml.cs",
+              "RelativeToolTip": "EvernoteClone\\View\\UserControl\\DisplayNote.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:17:51.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\Model\\User.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\Model\\User.cs",
+              "RelativeToolTip": "EvernoteClone\\Model\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:14:12.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Notebook.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\Model\\Notebook.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\Model\\Notebook.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\Model\\Notebook.cs",
+              "RelativeToolTip": "EvernoteClone\\Model\\Notebook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:14:49.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DisplayNotebook.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml",
+              "RelativeToolTip": "EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-26T16:17:33.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotesVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\NotesVM.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Helpers\\NotesVM.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\NotesVM.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Helpers\\NotesVM.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAIwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:25:42.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\LoginVM.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Helpers\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\LoginVM.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Helpers\\LoginVM.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:25:23.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Helpers\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Helpers\\DatabaseHelper.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Helpers\\DatabaseHelper.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:25:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\RegisterCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:23:16.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewNoteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\NewNoteCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\NewNoteCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\NewNoteCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\NewNoteCommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:22:58.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewNotebookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\NewNotebookCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\NewNotebookCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\NewNotebookCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\NewNotebookCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:22:38.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\LoginCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:22:10.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EndEditingCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\EndEditingCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:21:52.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
+              "RelativeToolTip": "EvernoteClone\\ViewModel\\Commands\\EditCommand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:21:34.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "EvernoteClone\\View\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:19:33.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DisplayNotebook.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml.cs",
+              "RelativeDocumentMoniker": "EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Masa\u00FCst\u00FC\\notes\\EvernoteClone\\EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml.cs",
+              "RelativeToolTip": "EvernoteClone\\View\\UserControl\\DisplayNotebook.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:18:18.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2081 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Microsoft.CognitiveServices.Speech/1.42.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Microsoft.CognitiveServices.Speech.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/ios-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
+            "assetType": "native",
+            "rid": "ios-arm64"
+          },
+          "runtimes/iossimulator-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
+            "assetType": "native",
+            "rid": "iossimulator-arm64"
+          },
+          "runtimes/iossimulator-x64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
+            "assetType": "native",
+            "rid": "iossimulator-x64"
+          },
+          "runtimes/linux-arm/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libpal_azure_c_shared.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libpal_azure_c_shared_openssl3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libpal_azure_c_shared.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libpal_azure_c_shared_openssl3.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpal_azure_c_shared.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpal_azure_c_shared_openssl3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/maccatalyst-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
+            "assetType": "native",
+            "rid": "maccatalyst-arm64"
+          },
+          "runtimes/maccatalyst-x64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
+            "assetType": "native",
+            "rid": "maccatalyst-x64"
+          },
+          "runtimes/osx-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.core.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.lu.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.lu.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.codec.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.lu.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.codec.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.lu.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "sqlite-net-pcl/1.9.172": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "2.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.2",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/net7.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/alpine-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-arm"
+          },
+          "runtimes/alpine-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-arm64"
+          },
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a": {
+            "assetType": "native",
+            "rid": "browser-wasm"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-armel"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-mips64"
+          },
+          "runtimes/linux-musl-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm"
+          },
+          "runtimes/linux-musl-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-s390x/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-s390x"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-arm64"
+          },
+          "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-x64"
+          },
+          "runtimes/osx-arm64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.2"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "System.Buffers/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.Extensions/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.5/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.Numerics/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Globalization": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.Numerics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Numerics.dll": {}
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netstandard1.3/_._": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CognitiveServices.Speech/1.42.0": {
+      "sha512": "NNsLzj5qX2t7AS55rRWQGu4m7M4OSzMd1/5I8heVYhvcq18GyOX3baPGkGAMlhugvCoREXMlWCaH4SBzwZZ2mg==",
+      "type": "package",
+      "path": "microsoft.cognitiveservices.speech/1.42.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/Microsoft.CognitiveServices.Speech.props",
+        "build/REDIST.txt",
+        "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets",
+        "build/Xamarin.iOS/libMicrosoft.CognitiveServices.Speech.core.a",
+        "build/monoandroid/Microsoft.CognitiveServices.Speech.targets",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "build/monoandroid/libs/x86_64/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/x86_64/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "build/monoandroid/libs/x86_64/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "build/monoandroid/libs/x86_64/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/x86_64/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "build/native/ARM/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/ARM64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/Microsoft.CognitiveServices.Speech.targets",
+        "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/include/c_api/CMakeLists.txt",
+        "build/native/include/c_api/azac_api_c_common.h",
+        "build/native/include/c_api/azac_api_c_diagnostics.h",
+        "build/native/include/c_api/azac_api_c_error.h",
+        "build/native/include/c_api/azac_api_c_pal.h",
+        "build/native/include/c_api/azac_debug.h",
+        "build/native/include/c_api/azac_error.h",
+        "build/native/include/c_api/speechapi_c.h",
+        "build/native/include/c_api/speechapi_c_audio_config.h",
+        "build/native/include/c_api/speechapi_c_audio_processing_options.h",
+        "build/native/include/c_api/speechapi_c_audio_stream.h",
+        "build/native/include/c_api/speechapi_c_audio_stream_format.h",
+        "build/native/include/c_api/speechapi_c_auto_detect_source_lang_config.h",
+        "build/native/include/c_api/speechapi_c_common.h",
+        "build/native/include/c_api/speechapi_c_connection.h",
+        "build/native/include/c_api/speechapi_c_conversation.h",
+        "build/native/include/c_api/speechapi_c_conversation_transcription_result.h",
+        "build/native/include/c_api/speechapi_c_conversation_translator.h",
+        "build/native/include/c_api/speechapi_c_diagnostics.h",
+        "build/native/include/c_api/speechapi_c_dialog_service_config.h",
+        "build/native/include/c_api/speechapi_c_dialog_service_connector.h",
+        "build/native/include/c_api/speechapi_c_embedded_speech_config.h",
+        "build/native/include/c_api/speechapi_c_error.h",
+        "build/native/include/c_api/speechapi_c_ext_audiocompression.h",
+        "build/native/include/c_api/speechapi_c_factory.h",
+        "build/native/include/c_api/speechapi_c_grammar.h",
+        "build/native/include/c_api/speechapi_c_hybrid_speech_config.h",
+        "build/native/include/c_api/speechapi_c_intent_recognizer.h",
+        "build/native/include/c_api/speechapi_c_intent_result.h",
+        "build/native/include/c_api/speechapi_c_intent_trigger.h",
+        "build/native/include/c_api/speechapi_c_json.h",
+        "build/native/include/c_api/speechapi_c_keyword_recognition_model.h",
+        "build/native/include/c_api/speechapi_c_language_understanding_model.h",
+        "build/native/include/c_api/speechapi_c_meeting.h",
+        "build/native/include/c_api/speechapi_c_meeting_transcription_result.h",
+        "build/native/include/c_api/speechapi_c_operations.h",
+        "build/native/include/c_api/speechapi_c_participant.h",
+        "build/native/include/c_api/speechapi_c_pattern_matching_model.h",
+        "build/native/include/c_api/speechapi_c_pronunciation_assessment_config.h",
+        "build/native/include/c_api/speechapi_c_property_bag.h",
+        "build/native/include/c_api/speechapi_c_recognizer.h",
+        "build/native/include/c_api/speechapi_c_result.h",
+        "build/native/include/c_api/speechapi_c_session.h",
+        "build/native/include/c_api/speechapi_c_source_lang_config.h",
+        "build/native/include/c_api/speechapi_c_speaker_recognition.h",
+        "build/native/include/c_api/speechapi_c_speech_config.h",
+        "build/native/include/c_api/speechapi_c_speech_recognition_model.h",
+        "build/native/include/c_api/speechapi_c_speech_translation_config.h",
+        "build/native/include/c_api/speechapi_c_speech_translation_model.h",
+        "build/native/include/c_api/speechapi_c_synthesis_request.h",
+        "build/native/include/c_api/speechapi_c_synthesizer.h",
+        "build/native/include/c_api/speechapi_c_translation_recognizer.h",
+        "build/native/include/c_api/speechapi_c_translation_result.h",
+        "build/native/include/c_api/speechapi_c_user.h",
+        "build/native/include/c_api/spxdebug.h",
+        "build/native/include/c_api/spxerror.h",
+        "build/native/include/cxx_api/CMakeLists.txt",
+        "build/native/include/cxx_api/azac_api_cxx_common.h",
+        "build/native/include/cxx_api/speechapi_cxx.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_data_stream.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_processing_options.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_stream.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_stream_format.h",
+        "build/native/include/cxx_api/speechapi_cxx_auto_detect_source_lang_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_auto_detect_source_lang_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_class_language_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_common.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_message.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_message_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcriber.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_translator.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_translator_events.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversational_language_understanding_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_connector.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_connector_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_embedded_speech_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_enums.h",
+        "build/native/include/cxx_api/speechapi_cxx_event_logger.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventsignal.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventsignalbase.h",
+        "build/native/include/cxx_api/speechapi_cxx_file_logger.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar_list.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar_phrase.h",
+        "build/native/include/cxx_api/speechapi_cxx_hybrid_speech_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_trigger.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_language_understanding_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_log_level.h",
+        "build/native/include/cxx_api/speechapi_cxx_meeting.h",
+        "build/native/include/cxx_api/speechapi_cxx_meeting_transcriber.h",
+        "build/native/include/cxx_api/speechapi_cxx_meeting_transcription_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_meeting_transcription_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_memory_logger.h",
+        "build/native/include/cxx_api/speechapi_cxx_participant.h",
+        "build/native/include/cxx_api/speechapi_cxx_pattern_matching_entity.h",
+        "build/native/include/cxx_api/speechapi_cxx_pattern_matching_intent.h",
+        "build/native/include/cxx_api/speechapi_cxx_pattern_matching_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_phrase_list_grammar.h",
+        "build/native/include/cxx_api/speechapi_cxx_pronunciation_assessment_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_pronunciation_assessment_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_properties.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_async_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_base_async_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_session.h",
+        "build/native/include/cxx_api/speechapi_cxx_session_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_smart_handle.h",
+        "build/native/include/cxx_api/speechapi_cxx_source_lang_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_source_language_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_identification_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_verification_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_bookmark_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_request.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_viseme_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_word_boundary_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_translation_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_translation_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_string_helpers.h",
+        "build/native/include/cxx_api/speechapi_cxx_synthesis_voices_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_user.h",
+        "build/native/include/cxx_api/speechapi_cxx_utils.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_info.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_client.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_enrollment_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_phrase_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_result.h",
+        "build/native/uap/ARM/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/uap/ARM64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/uap/Win32/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/uap/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/net462/Microsoft.CognitiveServices.Speech.targets",
+        "build/net8.0-android/Microsoft.CognitiveServices.Speech.targets",
+        "build/net8.0-ios/Microsoft.CognitiveServices.Speech.targets",
+        "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net462/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net462/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net8.0-android/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net8.0-android/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net8.0-ios/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net8.0-ios/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net8.0-maccatalyst/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net8.0-maccatalyst/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "microsoft.cognitiveservices.speech.1.42.0.nupkg.sha512",
+        "microsoft.cognitiveservices.speech.nuspec",
+        "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/android-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/android-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/ios-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a",
+        "runtimes/iossimulator-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a",
+        "runtimes/iossimulator-x64/native/libMicrosoft.CognitiveServices.Speech.core.a",
+        "runtimes/linux-arm/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-arm/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/linux-arm/native/libpal_azure_c_shared.so",
+        "runtimes/linux-arm/native/libpal_azure_c_shared_openssl3.so",
+        "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/linux-arm64/native/libpal_azure_c_shared.so",
+        "runtimes/linux-arm64/native/libpal_azure_c_shared_openssl3.so",
+        "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/linux-x64/native/libpal_azure_c_shared.so",
+        "runtimes/linux-x64/native/libpal_azure_c_shared_openssl3.so",
+        "runtimes/maccatalyst-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a",
+        "runtimes/maccatalyst-x64/native/libMicrosoft.CognitiveServices.Speech.core.a",
+        "runtimes/osx-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/osx-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.core.dylib",
+        "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib",
+        "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib",
+        "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib",
+        "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+        "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+        "runtimes/win-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.codec.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.codec.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.lu.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "type": "package",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+      "sha512": "r8qBEXmQfORso2+MVHnt8PSH4761zJ0SIxgQTSEDVLU97EN2FZdG6/ZCYUPhQy+OrPKgnpYBCAs3PS6Bs7wRsg==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.135",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net462/Microsoft.Xaml.Behaviors.xml",
+        "lib/net6.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "sqlite-net-pcl/1.9.172": {
+      "sha512": "go533+huyvg5bOMmCpX+DyvLrcVRiEBIpqEiDHgXRijWIBBNkWnyMr/w+5ZzrUArKY+4ApucsbBnFtP3QITrJg==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.9.172",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Logo-low.png",
+        "lib/netstandard2.0/SQLite-net.dll",
+        "lib/netstandard2.0/SQLite-net.xml",
+        "sqlite-net-pcl.1.9.172.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/2.1.2": {
+      "sha512": "e2FRX87YHoSer+tLFX9P/povHLK0uH7UcdimHRPnfTSam+NZChVVXjBxe1MYnyBGlwX5dSs5sTlDg/yZBM7iVw==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.xml",
+        "lib/net6.0-ios14.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-tvos10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/xamarinios10/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.1.2": {
+      "sha512": "A8EBepVqY2lnAp3a8jnhbgzF2tlj2S3HcJQGANTYg/TbYbKa8Z5cM1h74An/vy0svhfzT7tVY0sFmUglLgv+2g==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.1.2.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.2": {
+      "sha512": "zibGtku8M4Eea1R3ZCAxc86QbNvyEN17mAcQkvWKBuHvRpMiK2g5anG4R5Be7cWKSd1i6baYz8y4dMMAKcXKPg==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "buildTransitive/net7.0/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "lib/net461/_._",
+        "lib/netstandard2.0/_._",
+        "runtimes/alpine-arm/native/libe_sqlite3.so",
+        "runtimes/alpine-arm64/native/libe_sqlite3.so",
+        "runtimes/alpine-x64/native/libe_sqlite3.so",
+        "runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a",
+        "runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a",
+        "runtimes/linux-arm/native/libe_sqlite3.so",
+        "runtimes/linux-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-armel/native/libe_sqlite3.so",
+        "runtimes/linux-mips64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-arm/native/libe_sqlite3.so",
+        "runtimes/linux-musl-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-x64/native/libe_sqlite3.so",
+        "runtimes/linux-s390x/native/libe_sqlite3.so",
+        "runtimes/linux-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x86/native/libe_sqlite3.so",
+        "runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib",
+        "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib",
+        "runtimes/osx-arm64/native/libe_sqlite3.dylib",
+        "runtimes/osx-x64/native/libe_sqlite3.dylib",
+        "runtimes/win-arm/native/e_sqlite3.dll",
+        "runtimes/win-arm64/native/e_sqlite3.dll",
+        "runtimes/win-x64/native/e_sqlite3.dll",
+        "runtimes/win-x86/native/e_sqlite3.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
+        "sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.2": {
+      "sha512": "lxCZarZdvAsMl2zw9bXHrXK6RxVhB4b23iTFhCOdHFhxfbsxLxWf+ocvswJwR/9Wh/E//ddMi+wJGqUKV7VwoA==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
+    "System.Buffers/4.6.0": {
+      "sha512": "lN6tZi7Q46zFzAbRYXTIvfXcyvQQgxnY7Xm6C6xQ9784dEL1amjM6S6Iw4ZpsvesAKnRVsM4scrDQaDqSClkjA==",
+      "type": "package",
+      "path": "system.buffers/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Buffers.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Buffers.dll",
+        "lib/net462/System.Buffers.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.6.0.nupkg.sha512",
+        "system.buffers.nuspec"
+      ]
+    },
+    "System.Globalization/4.3.0": {
+      "sha512": "kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "type": "package",
+      "path": "system.globalization/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Globalization.dll",
+        "ref/netcore50/System.Globalization.xml",
+        "ref/netcore50/de/System.Globalization.xml",
+        "ref/netcore50/es/System.Globalization.xml",
+        "ref/netcore50/fr/System.Globalization.xml",
+        "ref/netcore50/it/System.Globalization.xml",
+        "ref/netcore50/ja/System.Globalization.xml",
+        "ref/netcore50/ko/System.Globalization.xml",
+        "ref/netcore50/ru/System.Globalization.xml",
+        "ref/netcore50/zh-hans/System.Globalization.xml",
+        "ref/netcore50/zh-hant/System.Globalization.xml",
+        "ref/netstandard1.0/System.Globalization.dll",
+        "ref/netstandard1.0/System.Globalization.xml",
+        "ref/netstandard1.0/de/System.Globalization.xml",
+        "ref/netstandard1.0/es/System.Globalization.xml",
+        "ref/netstandard1.0/fr/System.Globalization.xml",
+        "ref/netstandard1.0/it/System.Globalization.xml",
+        "ref/netstandard1.0/ja/System.Globalization.xml",
+        "ref/netstandard1.0/ko/System.Globalization.xml",
+        "ref/netstandard1.0/ru/System.Globalization.xml",
+        "ref/netstandard1.0/zh-hans/System.Globalization.xml",
+        "ref/netstandard1.0/zh-hant/System.Globalization.xml",
+        "ref/netstandard1.3/System.Globalization.dll",
+        "ref/netstandard1.3/System.Globalization.xml",
+        "ref/netstandard1.3/de/System.Globalization.xml",
+        "ref/netstandard1.3/es/System.Globalization.xml",
+        "ref/netstandard1.3/fr/System.Globalization.xml",
+        "ref/netstandard1.3/it/System.Globalization.xml",
+        "ref/netstandard1.3/ja/System.Globalization.xml",
+        "ref/netstandard1.3/ko/System.Globalization.xml",
+        "ref/netstandard1.3/ru/System.Globalization.xml",
+        "ref/netstandard1.3/zh-hans/System.Globalization.xml",
+        "ref/netstandard1.3/zh-hant/System.Globalization.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.globalization.4.3.0.nupkg.sha512",
+        "system.globalization.nuspec"
+      ]
+    },
+    "System.IO/4.3.0": {
+      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "type": "package",
+      "path": "system.io/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.IO.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.IO.dll",
+        "ref/netcore50/System.IO.dll",
+        "ref/netcore50/System.IO.xml",
+        "ref/netcore50/de/System.IO.xml",
+        "ref/netcore50/es/System.IO.xml",
+        "ref/netcore50/fr/System.IO.xml",
+        "ref/netcore50/it/System.IO.xml",
+        "ref/netcore50/ja/System.IO.xml",
+        "ref/netcore50/ko/System.IO.xml",
+        "ref/netcore50/ru/System.IO.xml",
+        "ref/netcore50/zh-hans/System.IO.xml",
+        "ref/netcore50/zh-hant/System.IO.xml",
+        "ref/netstandard1.0/System.IO.dll",
+        "ref/netstandard1.0/System.IO.xml",
+        "ref/netstandard1.0/de/System.IO.xml",
+        "ref/netstandard1.0/es/System.IO.xml",
+        "ref/netstandard1.0/fr/System.IO.xml",
+        "ref/netstandard1.0/it/System.IO.xml",
+        "ref/netstandard1.0/ja/System.IO.xml",
+        "ref/netstandard1.0/ko/System.IO.xml",
+        "ref/netstandard1.0/ru/System.IO.xml",
+        "ref/netstandard1.0/zh-hans/System.IO.xml",
+        "ref/netstandard1.0/zh-hant/System.IO.xml",
+        "ref/netstandard1.3/System.IO.dll",
+        "ref/netstandard1.3/System.IO.xml",
+        "ref/netstandard1.3/de/System.IO.xml",
+        "ref/netstandard1.3/es/System.IO.xml",
+        "ref/netstandard1.3/fr/System.IO.xml",
+        "ref/netstandard1.3/it/System.IO.xml",
+        "ref/netstandard1.3/ja/System.IO.xml",
+        "ref/netstandard1.3/ko/System.IO.xml",
+        "ref/netstandard1.3/ru/System.IO.xml",
+        "ref/netstandard1.3/zh-hans/System.IO.xml",
+        "ref/netstandard1.3/zh-hant/System.IO.xml",
+        "ref/netstandard1.5/System.IO.dll",
+        "ref/netstandard1.5/System.IO.xml",
+        "ref/netstandard1.5/de/System.IO.xml",
+        "ref/netstandard1.5/es/System.IO.xml",
+        "ref/netstandard1.5/fr/System.IO.xml",
+        "ref/netstandard1.5/it/System.IO.xml",
+        "ref/netstandard1.5/ja/System.IO.xml",
+        "ref/netstandard1.5/ko/System.IO.xml",
+        "ref/netstandard1.5/ru/System.IO.xml",
+        "ref/netstandard1.5/zh-hans/System.IO.xml",
+        "ref/netstandard1.5/zh-hant/System.IO.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.io.4.3.0.nupkg.sha512",
+        "system.io.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.6.0": {
+      "sha512": "t+SoieZsRuEyiw/J+qXUbolyO219tKQQI0+2/YI+Qv7YdGValA6WiuokrNKqjrTNsy5ABWU11bdKOzUdheteXg==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Numerics.Vectors.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Numerics.Vectors.dll",
+        "lib/net462/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "system.numerics.vectors.4.6.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec"
+      ]
+    },
+    "System.Reflection/4.3.0": {
+      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "type": "package",
+      "path": "system.reflection/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Reflection.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Reflection.dll",
+        "ref/netcore50/System.Reflection.dll",
+        "ref/netcore50/System.Reflection.xml",
+        "ref/netcore50/de/System.Reflection.xml",
+        "ref/netcore50/es/System.Reflection.xml",
+        "ref/netcore50/fr/System.Reflection.xml",
+        "ref/netcore50/it/System.Reflection.xml",
+        "ref/netcore50/ja/System.Reflection.xml",
+        "ref/netcore50/ko/System.Reflection.xml",
+        "ref/netcore50/ru/System.Reflection.xml",
+        "ref/netcore50/zh-hans/System.Reflection.xml",
+        "ref/netcore50/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.0/System.Reflection.dll",
+        "ref/netstandard1.0/System.Reflection.xml",
+        "ref/netstandard1.0/de/System.Reflection.xml",
+        "ref/netstandard1.0/es/System.Reflection.xml",
+        "ref/netstandard1.0/fr/System.Reflection.xml",
+        "ref/netstandard1.0/it/System.Reflection.xml",
+        "ref/netstandard1.0/ja/System.Reflection.xml",
+        "ref/netstandard1.0/ko/System.Reflection.xml",
+        "ref/netstandard1.0/ru/System.Reflection.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.3/System.Reflection.dll",
+        "ref/netstandard1.3/System.Reflection.xml",
+        "ref/netstandard1.3/de/System.Reflection.xml",
+        "ref/netstandard1.3/es/System.Reflection.xml",
+        "ref/netstandard1.3/fr/System.Reflection.xml",
+        "ref/netstandard1.3/it/System.Reflection.xml",
+        "ref/netstandard1.3/ja/System.Reflection.xml",
+        "ref/netstandard1.3/ko/System.Reflection.xml",
+        "ref/netstandard1.3/ru/System.Reflection.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.xml",
+        "ref/netstandard1.5/System.Reflection.dll",
+        "ref/netstandard1.5/System.Reflection.xml",
+        "ref/netstandard1.5/de/System.Reflection.xml",
+        "ref/netstandard1.5/es/System.Reflection.xml",
+        "ref/netstandard1.5/fr/System.Reflection.xml",
+        "ref/netstandard1.5/it/System.Reflection.xml",
+        "ref/netstandard1.5/ja/System.Reflection.xml",
+        "ref/netstandard1.5/ko/System.Reflection.xml",
+        "ref/netstandard1.5/ru/System.Reflection.xml",
+        "ref/netstandard1.5/zh-hans/System.Reflection.xml",
+        "ref/netstandard1.5/zh-hant/System.Reflection.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.4.3.0.nupkg.sha512",
+        "system.reflection.nuspec"
+      ]
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "type": "package",
+      "path": "system.reflection.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Reflection.Primitives.dll",
+        "ref/netcore50/System.Reflection.Primitives.xml",
+        "ref/netcore50/de/System.Reflection.Primitives.xml",
+        "ref/netcore50/es/System.Reflection.Primitives.xml",
+        "ref/netcore50/fr/System.Reflection.Primitives.xml",
+        "ref/netcore50/it/System.Reflection.Primitives.xml",
+        "ref/netcore50/ja/System.Reflection.Primitives.xml",
+        "ref/netcore50/ko/System.Reflection.Primitives.xml",
+        "ref/netcore50/ru/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/System.Reflection.Primitives.dll",
+        "ref/netstandard1.0/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/de/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/es/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/it/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.reflection.primitives.4.3.0.nupkg.sha512",
+        "system.reflection.primitives.nuspec"
+      ]
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "sha512": "/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "type": "package",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Resources.ResourceManager.dll",
+        "ref/netcore50/System.Resources.ResourceManager.xml",
+        "ref/netcore50/de/System.Resources.ResourceManager.xml",
+        "ref/netcore50/es/System.Resources.ResourceManager.xml",
+        "ref/netcore50/fr/System.Resources.ResourceManager.xml",
+        "ref/netcore50/it/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ja/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ko/System.Resources.ResourceManager.xml",
+        "ref/netcore50/ru/System.Resources.ResourceManager.xml",
+        "ref/netcore50/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netcore50/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/System.Resources.ResourceManager.dll",
+        "ref/netstandard1.0/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/de/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/es/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/fr/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/it/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ja/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ko/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/ru/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/zh-hans/System.Resources.ResourceManager.xml",
+        "ref/netstandard1.0/zh-hant/System.Resources.ResourceManager.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.resources.resourcemanager.4.3.0.nupkg.sha512",
+        "system.resources.resourcemanager.nuspec"
+      ]
+    },
+    "System.Runtime/4.3.0": {
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "type": "package",
+      "path": "system.runtime/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.0.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "type": "package",
+      "path": "system.runtime.extensions/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.Extensions.dll",
+        "ref/netcore50/System.Runtime.Extensions.dll",
+        "ref/netcore50/System.Runtime.Extensions.xml",
+        "ref/netcore50/de/System.Runtime.Extensions.xml",
+        "ref/netcore50/es/System.Runtime.Extensions.xml",
+        "ref/netcore50/fr/System.Runtime.Extensions.xml",
+        "ref/netcore50/it/System.Runtime.Extensions.xml",
+        "ref/netcore50/ja/System.Runtime.Extensions.xml",
+        "ref/netcore50/ko/System.Runtime.Extensions.xml",
+        "ref/netcore50/ru/System.Runtime.Extensions.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Extensions.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/System.Runtime.Extensions.dll",
+        "ref/netstandard1.0/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/de/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/es/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/it/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Extensions.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/System.Runtime.Extensions.dll",
+        "ref/netstandard1.3/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/de/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/es/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/it/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Extensions.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/System.Runtime.Extensions.dll",
+        "ref/netstandard1.5/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/de/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/es/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/fr/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/it/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/ja/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/ko/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/ru/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.Extensions.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.Extensions.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.extensions.4.3.0.nupkg.sha512",
+        "system.runtime.extensions.nuspec"
+      ]
+    },
+    "System.Runtime.Numerics/4.3.0": {
+      "sha512": "yMH+MfdzHjy17l2KESnPiF2dwq7T+xLnSJar7slyimAkUh/gTrS9/UQOtv7xarskJ2/XDSNvfLGOBQPjL7PaHQ==",
+      "type": "package",
+      "path": "system.runtime.numerics/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Runtime.Numerics.dll",
+        "lib/netstandard1.3/System.Runtime.Numerics.dll",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.Numerics.dll",
+        "ref/netcore50/System.Runtime.Numerics.xml",
+        "ref/netcore50/de/System.Runtime.Numerics.xml",
+        "ref/netcore50/es/System.Runtime.Numerics.xml",
+        "ref/netcore50/fr/System.Runtime.Numerics.xml",
+        "ref/netcore50/it/System.Runtime.Numerics.xml",
+        "ref/netcore50/ja/System.Runtime.Numerics.xml",
+        "ref/netcore50/ko/System.Runtime.Numerics.xml",
+        "ref/netcore50/ru/System.Runtime.Numerics.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Numerics.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/System.Runtime.Numerics.dll",
+        "ref/netstandard1.1/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/de/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/es/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/fr/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/it/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/ja/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/ko/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/ru/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/zh-hans/System.Runtime.Numerics.xml",
+        "ref/netstandard1.1/zh-hant/System.Runtime.Numerics.xml",
+        "ref/portable-net45+win8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.numerics.4.3.0.nupkg.sha512",
+        "system.runtime.numerics.nuspec"
+      ]
+    },
+    "System.Text.Encoding/4.3.0": {
+      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "type": "package",
+      "path": "system.text.encoding/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Text.Encoding.dll",
+        "ref/netcore50/System.Text.Encoding.xml",
+        "ref/netcore50/de/System.Text.Encoding.xml",
+        "ref/netcore50/es/System.Text.Encoding.xml",
+        "ref/netcore50/fr/System.Text.Encoding.xml",
+        "ref/netcore50/it/System.Text.Encoding.xml",
+        "ref/netcore50/ja/System.Text.Encoding.xml",
+        "ref/netcore50/ko/System.Text.Encoding.xml",
+        "ref/netcore50/ru/System.Text.Encoding.xml",
+        "ref/netcore50/zh-hans/System.Text.Encoding.xml",
+        "ref/netcore50/zh-hant/System.Text.Encoding.xml",
+        "ref/netstandard1.0/System.Text.Encoding.dll",
+        "ref/netstandard1.0/System.Text.Encoding.xml",
+        "ref/netstandard1.0/de/System.Text.Encoding.xml",
+        "ref/netstandard1.0/es/System.Text.Encoding.xml",
+        "ref/netstandard1.0/fr/System.Text.Encoding.xml",
+        "ref/netstandard1.0/it/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ja/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ko/System.Text.Encoding.xml",
+        "ref/netstandard1.0/ru/System.Text.Encoding.xml",
+        "ref/netstandard1.0/zh-hans/System.Text.Encoding.xml",
+        "ref/netstandard1.0/zh-hant/System.Text.Encoding.xml",
+        "ref/netstandard1.3/System.Text.Encoding.dll",
+        "ref/netstandard1.3/System.Text.Encoding.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.text.encoding.4.3.0.nupkg.sha512",
+        "system.text.encoding.nuspec"
+      ]
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "type": "package",
+      "path": "system.threading.tasks/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Threading.Tasks.dll",
+        "ref/netcore50/System.Threading.Tasks.xml",
+        "ref/netcore50/de/System.Threading.Tasks.xml",
+        "ref/netcore50/es/System.Threading.Tasks.xml",
+        "ref/netcore50/fr/System.Threading.Tasks.xml",
+        "ref/netcore50/it/System.Threading.Tasks.xml",
+        "ref/netcore50/ja/System.Threading.Tasks.xml",
+        "ref/netcore50/ko/System.Threading.Tasks.xml",
+        "ref/netcore50/ru/System.Threading.Tasks.xml",
+        "ref/netcore50/zh-hans/System.Threading.Tasks.xml",
+        "ref/netcore50/zh-hant/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/System.Threading.Tasks.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/de/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/es/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/fr/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/it/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ja/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ko/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/ru/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/zh-hans/System.Threading.Tasks.xml",
+        "ref/netstandard1.0/zh-hant/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/System.Threading.Tasks.dll",
+        "ref/netstandard1.3/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/de/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/es/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/fr/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/it/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ja/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ko/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/ru/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/zh-hans/System.Threading.Tasks.xml",
+        "ref/netstandard1.3/zh-hant/System.Threading.Tasks.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.4.3.0.nupkg.sha512",
+        "system.threading.tasks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Microsoft.CognitiveServices.Speech >= 1.42.0",
+      "Microsoft.Xaml.Behaviors.Wpf >= 1.1.135",
+      "SQLitePCLRaw.bundle_green >= 2.1.2",
+      "SQLitePCLRaw.core >= 2.1.2",
+      "SQLitePCLRaw.lib.e_sqlite3 >= 2.1.2",
+      "SQLitePCLRaw.provider.e_sqlite3 >= 2.1.2",
+      "System.Buffers >= 4.6.0",
+      "System.Memory >= 4.5.3",
+      "System.Numerics.Vectors >= 4.6.0",
+      "System.Runtime.Numerics >= 4.3.0",
+      "sqlite-net-pcl >= 1.9.172"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Masaüstü\\notes\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
+      "projectName": "EvernoteClone",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Masaüstü\\notes\\EvernoteClone\\EvernoteClone\\EvernoteClone.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Masaüstü\\notes\\EvernoteClone\\EvernoteClone\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Microsoft.CognitiveServices.Speech": {
+            "target": "Package",
+            "version": "[1.42.0, )"
+          },
+          "Microsoft.Xaml.Behaviors.Wpf": {
+            "target": "Package",
+            "version": "[1.1.135, )"
+          },
+          "SQLitePCLRaw.bundle_green": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "SQLitePCLRaw.core": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "SQLitePCLRaw.lib.e_sqlite3": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "SQLitePCLRaw.provider.e_sqlite3": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "System.Buffers": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          },
+          "System.Memory": {
+            "target": "Package",
+            "version": "[4.5.3, )"
+          },
+          "System.Numerics.Vectors": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          },
+          "System.Runtime.Numerics": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.9.172, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
